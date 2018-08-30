@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: "R7m8DXQQ0wTn27UZbsCEZwY9ab8IyQ6k4BHS02tdyjH3XHP6P9B3hCi/GOn9BJ0liCBMCGSvjH3lgIBgvI0gJuQZx6xBn2tGRuxKwqUOD1TJ8h0cjq6pIZKM6T3v00/0CRigWhIxH+Q/p8lYojOAN6V51naIyTX+4Iv21pS3mcPBpKcKk0HizPaPPtvqYHLDD840LNAroKlViKGyEB42SE4JgIJrE4vMmKVpw3NYKo7aitK+j1OGkgUzahGcxY9AcwIBECDICNDOmcKR+0kZN3bej0zz38RfrZjqSwoT25Ca6SmuCqlfmMGppHXPe/wRbe47Cm7jkHpHVEzjjUaAh/g2Hn4CGVbs+Vq7mPrqjEdBwo4ul3Rv0yKe2Qivs1JZWsOUtFtoofqRZc4hN77UR9CHQz/Cl5Zmjj5GyHOrczFu+agZbvUXZ4TUXjomIpXUVP5hWQ1Mdt80GchFwRAJdKRK+nWkTtE4Gr8SuD68KcHOlFpcvH3ISCNfZ9WQkabgYdMdsUIfR+I5qyFvPmgjD8l2JHjwX53F13WozdYXEdNrBw8X4YW2Yp9jnv2BeDFH0N18voRK+PrLWPu4s6Jz2qWwa/onjRdvK5oZKPqRINxOp3Q1uP2avEvmQg9+ZCfX9wlKcZXgQgcTylKZ5LQtoZnX+nmnS/6ft7Wn/tHdzpg="
+  app: secret-woodland-84267
+  on:
+    repo: Michaela-M/node-shopping-list-integration-tests
